@@ -59,8 +59,8 @@ Each milestone is only built on a *proven* layer beneath it.
 ## Repository layout (planned)
 
 ```
-firmware-stm32/   real-time audio: SDMMC, FatFs, FLAC decode, SAI/I²S, SPI slave
-firmware-esp32/   WiFi, FTP/web server, SPI-to-filesystem bridge
+firmware/stm32/   real-time audio: SDMMC, FatFs, FLAC decode, SAI/I²S, SPI slave
+firmware/esp32/   WiFi, FTP/web server, SPI-to-filesystem bridge
 app/              phone app: file management + telemetry dashboard
 hardware/         schematics and PCB design files
 docs/             design notes, protocol spec, build guide
